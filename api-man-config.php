@@ -1,12 +1,12 @@
 <?php
 
-  define("ROOT_DIR", "/home/brenuzrr/public_html/brendanmanningapps/wgwars/");
-  define("URL_SUBDIRECTORY", "/wgwars/");
+  define("ROOT_DIR", "{ROOT_DIR}");
+  define("URL_SUBDIRECTORY", "");
   
-  define("DB_HOST", "localhost");
-  define("DB_NAME", "brenuzrr_wgwars");
-  define("DB_USER", "brenuzrr_wgwars");
-  define("DB_PASS", "12265790");
+  define("DB_HOST", "{DB_HOST}");
+  define("DB_NAME", "{DB_NAME}");
+  define("DB_USER", "{DB_USER}");
+  define("DB_PASS", "{DB_PASS}");
   
   define("WEB_UI_PERMISSION_NAME", "backend"); // Do not touch this!!!
   
