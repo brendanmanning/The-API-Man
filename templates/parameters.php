@@ -1,5 +1,5 @@
 <?php
-  function has_all_parameters($parameters) {
+  function has_all_parameters($params) {
     
     // parameters is an associative array containing all the request-supplied GET/POST values and their keys
     // For example, the request todos?count=100&startDate=January012017
