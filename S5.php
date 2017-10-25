@@ -11,10 +11,10 @@
   class S5 {
     // Your database connection information here
     private $database_connection = [
-      "db_host" => "localhost",
-      "db_name" => "brenuzrr_wgwars",
-      "db_user" => "brenuzrr_wgwars",
-      "db_pass" => "12265790",
+      "db_host" => "{DB_HOST}",
+      "db_name" => "{DB_NAME}",
+      "db_user" => "{DB_USER}",
+      "db_pass" => "{DB_PASS}",
       "db_users_table" => "users", // Table where your user accounts are saved. Created if not exists
       "db_tokens_table" => "tokens", // Table where user tokens will be saved. Created if not exists
       "db_api_table" => "api", // Table where api keys and tokens will be saved. Created if not exists
